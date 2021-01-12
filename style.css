@@ -1,0 +1,70 @@
+body {
+  width: 1000px;
+}
+
+/* Header Styling */
+header {
+  background-color: rgb(80, 79, 77);
+  height: 100px;
+  width: 1000px;
+}
+
+header > img {
+  float: left;
+  margin-top: 15px;
+  margin-left: 30px;
+  display: inline;
+}
+
+header nav {
+  right: 15px;
+  text-align: right;
+}
+
+nav li {
+  list-style: none;
+  margin-top: 50px;
+  margin-right: 100px;
+  display: inline-block;
+}
+
+/* main Styling */
+main {
+  top: 100px;
+  margin: 20px;
+}
+/* main {
+    width: 1000px;
+    margin: 0 auto;
+  } */
+
+div:first-child {
+  display: inline;
+
+  top: 30px;
+
+  /* margin: 20px; */
+}
+
+div:nth-child(2) {
+  /* position: relative; */
+  display: inline;
+  width: 100%;
+  top: 10px;
+
+  /* margin: 20px; */
+}
+
+div:nth-child(3) > p {
+  height: 300px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+body footer {
+  width: 100%;
+  margin-top: 40px;
+  height: 150px;
+  background: gray;
+}
