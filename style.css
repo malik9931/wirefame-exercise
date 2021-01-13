@@ -32,6 +32,7 @@ nav li {
 main {
   top: 100px;
   margin: 20px;
+  height: 1250px;
 }
 /* main {
     width: 1000px;
@@ -39,32 +40,57 @@ main {
   } */
 
 div:first-child {
-  display: inline;
-
+  float: right;
+  width: 450px;
   top: 30px;
+}
+div:first-child img {
+  width: 450px;
+  top: 30px;
+}
+/* 
+div:nth-child(2) {
+  width: 450px;
+  display: inline;
+  top: 10px;
+}
 
-  /* margin: 20px; */
+div:nth-child(2) > img {
+  display: inline;
+  margin-top: 20px;
 }
 
 div:nth-child(2) {
-  /* position: relative; */
   display: inline;
-  width: 100%;
-  top: 10px;
-
-  /* margin: 20px; */
-}
-
-div:nth-child(3) > p {
   height: 300px;
-  overflow: auto;
   margin-bottom: 20px;
+  margin-left: 10px;
+
+  top: 10px;
+} */
+
+main div:last-child {
+  overflow: auto;
+  float: left;
+  margin: 10px;
 }
 
+main div:last-child aside {
+  overflow: auto;
+  float: right;
+  margin: 10px;
+  width: 400px;
+  margin-top: 0px;
+}
+
+main div:last-child aside h4 {
+  margin-top: 0px;
+}
 /* Footer Styles */
-body footer {
-  width: 100%;
-  margin-top: 40px;
+footer {
+  /* width: 100%; */
+  margin-top: 30px;
   height: 150px;
   background: gray;
+  bottom: 0px;
 }
